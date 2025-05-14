@@ -28,20 +28,35 @@ O site apresenta informações sobre o psicólogo, seus serviços, os benefício
 
 andre-psicologo-landing/
 │
+
 ├── index.html ← Página principal
+
 ├── favicon.ico ← Ícone da aba
+
 │
+
 ├── assets/
+
 │ ├── img/ ← Imagens gerais
+
 │ ├── svg/ ← Ícones SVG organizados
+
 │ └── fonts/ ← Fontes personalizadas (se houver)
+
 │
+
 ├── css/
+
 │ └── style.css ← Estilização principal
+
 │
+
 ├── js/
+
 │ └── main.js ← Scripts para interações e animações
+
 │
+
 └── README.md ← Você está aqui! Documentação do projeto
 
 ---
