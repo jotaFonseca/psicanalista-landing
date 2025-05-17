@@ -1,3 +1,7 @@
 /* Imports */
 @import url('../base/reset.css');
 @import url('../base/variable.css');
+
+#hero {
+  background-image: url('../../assets/img/logo-hero/hero-img.jpg');
+}

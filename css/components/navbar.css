@@ -1,3 +1,51 @@
 /* Imports */
 @import url('../base/reset.css');
 @import url('../base/variable.css');
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.logo-text a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#main-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+#main-menu a {
+  color: var(--cta-color);
+  position: relative;
+  text-decoration: none;
+}
+
+#main-menu a::after {
+  background-color: var(--cta-color);
+  content: '';
+  display: block;
+  height: 2px;
+  margin-top: 4px;
+  position: absolute;
+  transition: .3s ease-in;
+  width: 0;
+}
+
+#main-menu a:hover::after,
+#main-menu a.ativo::after {
+  width: 100%;
+}
+
