@@ -9,3 +9,27 @@
 @import url('./components/benefits.css');
 @import url('./components/contact.css');
 @import url('./components/footer.css');
+
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: var(--cta-color);
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  max-width: 300px;
+  margin-left: 5rem;
+  transition: .3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--cta-color-hover);
+  transform: scale(1.05);
+}
