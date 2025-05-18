@@ -4,9 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
+  overflow: hidden;
   padding: 5rem 3rem;
   position: relative;
-  overflow: hidden;
   height: 140vh;
 }
 
