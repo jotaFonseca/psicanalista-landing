@@ -135,8 +135,10 @@
       <section id="hero" aria-labelledby="hero-title">
         <div class="hero-container">
           <div class="hero-content">
-            <h2 id="hero-title">Toda mudança começa<br> 
-              com um passo</h2>
+            <h2 id="hero-title">
+              Toda mudança começa<br />
+              com um passo
+            </h2>
             <p>
               Apoio profissional, escuta acolhedora e cuidado com <br />
               sua saúde mental
@@ -166,49 +168,61 @@
 
     <main>
       <!-- Seção Sobre -->
-      <section id="about" aria-labelledby="about-title">
-        <div class="container">
+<section id="about" aria-labelledby="about-title">
+        <div class="about-container">
           <h2 id="about-title" class="section-title">Sobre</h2>
-          <img
-            src="./assets/svg/linha-suave-sobre.svg"
-            alt=""
-            aria-hidden="true"
-          />
+          <div class="about-cv">
+            <h3>André Carvalho</h3>
+            <p>Psicólogo (CRP 05/78.074)</p>
+            <p>Psicanalista (PUC-Rio)</p>
+            <p>Professor Universitário</p>
+          </div>
 
-          <div class="about-content">
-            <div class="cv-container">
-              <h3>Sobre André Carvalho</h3>
-              <p>Psicólogo (CRP 05/78.074)</p>
-              <p>Psicanalista (PUC-Rio)</p>
-              <p>Professor Universitário</p>
-            </div>
-
-            <div class="description-container">
+          <div class="about-description">
+            <div class="about-description-text">
               <p>
                 Profissional experiente atua com uma escuta ativa, empática e
-                comprometido com sua saúde mental. Aqui, você encontra um
+                comprometido com sua saúde mental.<br>
+                Aqui, você encontra um
                 ambiente seguro, acolhedor e confidencial para tratar do que
                 realmente importa: seu bem-estar.
               </p>
             </div>
-
-            <a
-              href="https://wa.me/+5521990868668"
-              class="btn cta-primary"
-              aria-label="Marque sua Consulta"
-            >
+            <div class="about-description-ilustration">
               <img
-                src="./assets/svg/wpp-icon.svg"
+                src="./assets/svg/linha-suave-sobre.svg"
                 alt=""
-                class="wpp-icon"
-                width="24"
-                height="24"
                 aria-hidden="true"
+                class="about-line"
               />
-              Marque sua Consulta
-            </a>
+              <dotlottie-player
+                src="https://lottie.host/2a2f684d-99fe-4a6b-8201-c17910968e81/DnYEYeSR9H.lottie"
+                background="transparent"
+                speed="1"
+                style="width: 700px; height: 350px"
+                loop
+                autoplay
+                class="ilustration"
+              ></dotlottie-player>
+            </div>
           </div>
         </div>
+
+        
+            <a href="https://wa.me/+5521990868668"
+            class="btn cta-primary"
+            aria-label="Marque sua Consulta"
+          >
+            <img
+              src="./assets/svg/wpp-icon.svg"
+              alt=""
+              class="wpp-icon"
+              width="24"
+              height="24"
+              aria-hidden="true"
+            />
+            Marque sua Consulta
+          </a>
       </section>
 
       <!-- Seção Serviços -->
@@ -833,5 +847,11 @@
         </div>
       </div>
     </footer>
+
+    <!-- Animations Scripts -->
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
   </body>
 </html>
