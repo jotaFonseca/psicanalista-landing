@@ -2,7 +2,13 @@
 @import url('../base/reset.css');
 @import url('../base/variable.css');
 
-
+#top-header-wrapper{
+  background-image: url('../../assets/img/logo-hero/hero-img.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -47,5 +53,9 @@
 #main-menu a:hover::after,
 #main-menu a.ativo::after {
   width: 100%;
+}
+
+.mobile-menu-toggle {
+  display: none;
 }
 
