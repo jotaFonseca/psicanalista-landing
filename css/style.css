@@ -18,6 +18,7 @@ a {
 .btn {
   background-color: var(--cta-color);
   border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
   color: #fff;
   padding: 20px 30px;
   display: flex;

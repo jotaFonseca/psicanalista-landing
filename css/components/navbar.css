@@ -5,7 +5,6 @@
 #top-header-wrapper{
   background-image: url('../../assets/img/logo-hero/hero-img.jpg');
   background-size: cover;
-  /* background-position: center; */
   background-repeat: no-repeat;
   height: 100vh;
 }
