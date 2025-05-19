@@ -1,3 +1,36 @@
 /* Imports */
 @import url('../base/reset.css');
 @import url('../base/variable.css');
+
+#contact {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.contact-line {
+  position: absolute;
+  top: -25px;
+  left: -100px;
+  z-index: 0;
+}
+
+.contact-blob {
+  background-image: url('../../assets/svg/contact/blob-contato.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1500px;
+  height: 1200px;
+}
+
+
+
+
