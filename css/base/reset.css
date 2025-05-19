@@ -7,8 +7,8 @@
 }
 
 html, body {
-  background-color: var(--bg-light);
-  color: var(--gray-dark);
+  background-color: var(--contrast-light);
+  color: var(--main-text);
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   width: 100%;

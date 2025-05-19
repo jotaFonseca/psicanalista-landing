@@ -4,9 +4,9 @@
    --primary-color-active: #5e855e;
    --secondary-color: #824209;
    --secondary-color-hover: #4e2805;
-   --bg-color: #e9e8d1;
-   --bg-color-hover: #d2d1bc;
-   --bg-light: #f8f8f1;
+   --contrast-color: #e9e8d1;
+   --contrast-color-hover: #d2d1bc;
+   --contrast-light: #f8f8f1;
    --cta-color: #3b733b;
    --cta-color-hover: #234523;
    --main-text: #333;
