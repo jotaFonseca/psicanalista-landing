@@ -1,5 +1,4 @@
 #about {
-  background-color: var(--background-light);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,5 +129,5 @@
 #about .btn {
   position: absolute;
   bottom: 40px;
-  left: 32%;
+  left: 40%;
 }

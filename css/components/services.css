@@ -23,13 +23,13 @@
 .top-left {
   top: -50px;
   left: -50px;
-  background-image: url('../../assets/svg/servicos-top-left-blob.svg');
+  background-image: url('../../assets/svg/services/servicos-top-left-blob.svg');
 }
 
 .bottom-right {
   bottom: -50px;
   right: -50px;
-  background-image: url('../../assets/svg/servicos-bottom-right-blob.svg');
+  background-image: url('../../assets/svg/services/servicos-bottom-right-blob.svg');
 }
 
 .services-title {
