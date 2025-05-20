@@ -35,15 +35,26 @@
   margin-bottom: 2rem;
 }
 
+.footer-menu {
+  text-align: center;
+  width: 100%;
+}
+
 .footer-menu ul{
+  display: inline-block;
   list-style: none;
   margin: 0 auto;
   padding: 0;
 }
 
+.footer-menu li {
+  display: block;
+  margin-left: 5.5rem;
+}
+
 .footer-menu a {
   color: var(--contrast-light);
-  display: block;
+  display: inline-block;
   padding: .5rem 0;
   position: relative;
   transition: color .3s;
@@ -59,7 +70,7 @@
   bottom: 0;
   height: 2px;
   width: 0;
-  transition: .3s ease-in-out;
+  transition: width .3s ease-in-out;
 }
 
 .footer-menu a:hover,
