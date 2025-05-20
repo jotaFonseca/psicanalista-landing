@@ -1,0 +1,163 @@
+/* Imports */
+@import url('../base/reset.css');
+@import url('../base/variable.css');
+
+#benefits {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  height: 250vh;
+}
+
+.benefits-line {
+  position: absolute;
+  top: -25px;
+  left: 100px;
+  z-index: 0;
+}
+
+.benefits-title {
+  color: var(--primary-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  padding: 10rem 10rem;
+  position: relative;
+  text-decoration: underline;
+  z-index: 1;
+}
+
+.benefits-title::before {
+  background-color: var(--primary-color);
+  content: '';
+  position: absolute;
+  left: 110px;
+  top: 180px;
+  height: 20px;
+  width: 40px;
+}
+
+.benefits-description {
+  color: var(--primary-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.benefits-blob {
+  background-image: url('../../assets/svg/benefits/bg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 410px;
+  height: 2500px;
+  width: 2500px;
+  z-index: 1;
+}
+
+.therapy-types {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 5rem;
+  padding: 5rem 10rem;
+  z-index: 2;
+}
+
+.therapy-type{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.therapy-type.online {
+  border-right: 3px solid rgba(130,66,9,.2);
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+
+.therapy-type.presential {
+  margin-top: 3rem;
+}
+
+#online-therapy-title,
+#presential-therapy-title {
+  color: var(--cta-color-hover);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.therapy-subtext {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.benefits-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 400px;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: left;
+}
+
+.benefit-icon {
+  position: absolute;
+  top: -10px;
+  left: -60px;
+}
+
+.benefit-content h4 {
+  color: var(--cta-color-hover);
+  font-family: 'Playfair Display',serif;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.benefit-content p {
+  color: var(--primary-color);
+}
+
+.cta-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.cta-question {
+  color: var(--secondary-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cta-section .btn {
+  margin-right: 5rem;
+  z-index: 3;
+}
+

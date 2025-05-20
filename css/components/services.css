@@ -1,0 +1,217 @@
+ /* Imports */
+@import url('../base/reset.css');
+@import url('../base/variable.css');
+
+#services {
+  background-color: var(--primary-color);
+  overflow: hidden;
+  padding: 5rem 3rem;
+  position: relative;
+  height: 160vh;
+}
+
+.services-blob {
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  z-index: 0;
+}
+
+.top-left {
+  background-image: url('../../assets/svg/services/servicos-top-left-blob.svg');
+  top: -50px;
+  left: -50px;
+}
+
+.bottom-right {
+  background-image: url('../../assets/svg/services/servicos-bottom-right-blob.svg');
+  bottom: -50px;
+  right: -50px;
+}
+
+.services-title {
+  color: var(--cta-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  padding-right: 15rem;
+  position: relative;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.services-title::before {
+  background-color: var(--cta-color);
+  content: '';
+  position: absolute;
+  top: 18px;
+  right: 410px;
+  width: 45px;
+  height: 25px;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.service-content h3 {
+  color: var(--secondary-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  z-index: 2;
+}
+
+.service-description {
+  color: var(--contrast-color);
+  font-size: 1.25rem;
+  text-align: center;
+  width: 65rem;
+  height: 10rem;
+}
+
+.carrossel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  color: var(--secondary-color-light);
+  cursor: pointer;
+  font-size: 2rem;
+  transition: .3s ease-in-out
+}
+
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+.slides-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  overflow: hidden;
+  padding-left: 3rem;
+  width: 66.5rem;
+  height: 28.125rem;
+}
+
+.slide {
+  background-color: var(--contrast-color);
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+  color: var(--secondary-color);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 20px 10px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  transition: .3s ease-in-out;
+}
+
+.slide:hover {
+  transform: scale(1.05);
+}
+
+.slide::before,
+.slide::after {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.slide::before {
+  left: 20px;
+  top: 15px;
+  width: 180px;
+  height: 180px;
+}
+
+.slide::after {
+  bottom: 20px;
+  right: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.slide-icon,
+.slide-title,
+.slide-description {
+  z-index: 1;
+}
+
+.slide-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+}
+
+.slide-description {
+  width: 200px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dot {
+  background-color: var(--secondary-color-light);
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  transition: .3s ease-in-out;
+}
+
+.active {
+  background-color: var(--secondary-color);
+  transition: .3s ease-in-out;
+}
+
+.services-cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.services-cta-text {
+  border-left: 2px solid var(--contrast-light);
+  color: var(--contrast-light);
+  padding-left: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 3;
+}
+
+.services-cta dotlottie-player{
+  z-index: 0;
+}
+
+.services-container .btn {
+  margin-bottom: 3rem;
+  margin-left: 12rem;
+}

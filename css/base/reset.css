@@ -7,8 +7,11 @@
 }
 
 html, body {
+  background-color: var(--contrast-light);
+  color: var(--main-text);
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
-  background-color: var(--bg-light);
-  color: var(--gray-dark);
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }

@@ -1,0 +1,88 @@
+/* Imports */
+@import url('../base/reset.css');
+@import url('../base/variable.css');
+
+#footer {
+  background-color: var(--footer-bg);
+  padding: 3rem 15rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left .logo-container img {
+  margin-right: .5rem;
+}
+
+.footer-left .logo-container .logo-text {
+  color: var(--contrast-light);
+}
+
+.footer-left .logo-container .logo-text h3{
+  font-size: 1.75rem;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-right .cta-button {
+  margin-bottom: 2rem;
+}
+
+.footer-menu {
+  text-align: center;
+  width: 100%;
+}
+
+.footer-menu ul{
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-menu li {
+  display: block;
+  margin-left: 5.5rem;
+}
+
+.footer-menu a {
+  color: var(--contrast-light);
+  display: inline-block;
+  padding: .5rem 0;
+  position: relative;
+  transition: color .3s;
+  text-decoration: none;
+}
+
+.footer-menu a::after {
+  background-color: var(--contrast-light);
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  transition: width .3s ease-in-out;
+}
+
+.footer-menu a:hover,
+.footer-menu a:focus {
+  color: var(--cta-color);
+}
+
+.footer-menu a:hover::after,
+.footer-menu a:focus::after {
+  width: 100%;
+}
+
+.footer-bottom {
+  color: var(--contrast-light);
+}
