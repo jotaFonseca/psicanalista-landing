@@ -28,9 +28,47 @@
   top: 0;
   left: 0;
   width: 1500px;
-  height: 1200px;
+  height: 1000px;
 }
 
+.contact-content {
+  position: relative;
+}
+
+.contact-title {
+  color: var(--contrast-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-text {
+  color: var(--contrast-color);
+  font-size: 2rem;
+  line-height: 2.5;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.highlight-text {
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+.contact-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-ilustration {
+  position: absolute;
+  bottom: 10px;
+  right: 80px;
+}
 
 
 
