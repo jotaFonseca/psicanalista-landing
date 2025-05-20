@@ -13,23 +13,23 @@
 .services-blob {
   background-size: contain;
   background-repeat: no-repeat;
-  position: absolute;
   pointer-events: none;
+  position: absolute;
   width: 800px;
   height: 800px;
   z-index: 0;
 }
 
 .top-left {
+  background-image: url('../../assets/svg/services/servicos-top-left-blob.svg');
   top: -50px;
   left: -50px;
-  background-image: url('../../assets/svg/services/servicos-top-left-blob.svg');
 }
 
 .bottom-right {
+  background-image: url('../../assets/svg/services/servicos-bottom-right-blob.svg');
   bottom: -50px;
   right: -50px;
-  background-image: url('../../assets/svg/services/servicos-bottom-right-blob.svg');
 }
 
 .services-title {
@@ -120,7 +120,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding: 10px 20px;
+  padding: 0 20px 10px;
   position: relative;
   text-align: center;
   width: 300px;
@@ -132,30 +132,43 @@
   transform: scale(1.05);
 }
 
-.slide::before {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  content: '';
-  position: absolute;
-  pointer-events: none;
-  top: 15px;
-  left: 20px;
-  width: 180px;
-  height: 180px;
-  z-index: 0;
-}
-
+.slide::before,
 .slide::after {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   content: '';
-  position: absolute;
   pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.slide::before {
+  left: 20px;
+  top: 15px;
+  width: 180px;
+  height: 180px;
+}
+
+.slide::after {
   bottom: 20px;
   right: 30px;
   width: 100px;
   height: 100px;
-  z-index: 0;
+}
+
+.slide-icon,
+.slide-title,
+.slide-description {
+  z-index: 1;
+}
+
+.slide-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+}
+
+.slide-description {
+  width: 200px;
 }
 
 .dots {
