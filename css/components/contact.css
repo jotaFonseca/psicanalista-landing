@@ -5,9 +5,9 @@
 #contact {
   background-color: var(--primary-color);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   overflow: hidden;
   position: relative;
   height: 100vh;
@@ -21,18 +21,20 @@
 }
 
 .contact-blob {
-  background-image: url('../../assets/svg/contact/blob-contato.svg');
+  background: url('../../assets/svg/contact/blob-contato.svg') no-repeat;
   background-size: contain;
-  background-repeat: no-repeat;
+  pointer-events: none;
   position: absolute;
-  top: 0;
   left: 0;
-  width: 1500px;
+  top: 0;
   height: 1000px;
+  width: 1500px;
+  z-index: 0;
 }
 
 .contact-content {
   position: relative;
+  z-index: 1;
 }
 
 .contact-title {
@@ -41,7 +43,9 @@
   font-size: 3rem;
   letter-spacing: .2rem;
   margin-bottom: 2rem;
+  position: relative;
   text-align: center;
+  z-index: 1;
 }
 
 .contact-text {
@@ -62,12 +66,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
 }
 
 .contact-ilustration {
   position: absolute;
   bottom: 10px;
   right: 80px;
+  z-index: 1;
 }
 
 
