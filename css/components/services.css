@@ -59,6 +59,8 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  position: relative;
+  z-index: 2;
 }
 
 .service-content h3 {
@@ -187,6 +189,10 @@
   transition: .3s ease-in-out;
 }
 
+.dot.mobile-only {
+  display: none;
+}
+
 .active {
   background-color: var(--secondary-color);
   transition: .3s ease-in-out;
@@ -214,4 +220,102 @@
 .services-container .btn {
   margin-bottom: 3rem;
   margin-left: 12rem;
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  #services {
+    padding: 5rem 1rem;
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .services-content {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .services-blob {
+    height: 300px;
+    width: 300px;
+  }
+
+  .services-blob.top-left,
+  .services-blob.bottom-right {
+    z-index: 1;
+  }
+
+.services-title {
+  font-size: 2rem;
+  padding-right: 30px;
+  z-index: 1;
+}
+
+.services-title::before {
+  width: 20px;
+  height: 10px;
+  top: 20px;
+  right: 160px;
+}
+
+.service-content h3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.service-description {
+  height: auto;
+  text-align: left;
+  width: 90%;
+}
+
+.carrossel-wrapper {
+  gap: .75rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+  .slides-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .slide {
+    width: 250px;
+    height: 300px;
+    margin: 1rem .75rem;
+  }
+
+  .slide-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: .5rem;
+  }
+
+  .dot.mobile-only {
+    display: block;
+  }
+
+  .services-cta-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+
+.services-container .btn {
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  dotlottie-player {
+    display: none;
+  }
 }

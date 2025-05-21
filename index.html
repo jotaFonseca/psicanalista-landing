@@ -62,33 +62,6 @@
 
     <!-- Structured Data para Google -->
     <script type="application/ld+json">
-<<<<<<< HEAD
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "André Carvalho - Psicólogo e Psicanalista",
-      "image": "https://psicanaliserj.com/assets/img/logo-hero/logo.png",
-      "url": "https://psicanaliserj.com/",
-      "telephone": "+5521990868668",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Rio de Janeiro",
-        "addressRegion": "RJ",
-        "addressCountry": "BR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "-22.9035",
-        "longitude": "-43.1730"
-      },
-      "openingHours": "Mo-Fr 08:00-20:00",
-      "description": "Psicoterapia presencial e online com acolhimento humanizado. Tratamento para ansiedade, depressão e autoconhecimento.",
-      "sameAs": [
-        "https://wa.me/+5521990868668",
-      ]
-    }
-=======
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
@@ -115,7 +88,6 @@
           "https://wa.me/5521990868668"
         ]
       }
->>>>>>> css-section
     </script>
   </head>
   <body>
@@ -141,16 +113,10 @@
             </div>
           </div>
 
-          <nav aria-label="Navegação principal">
-            <button
-              class="mobile-menu-toggle"
-              aria-expanded="false"
-              aria-controls="main-menu"
-              aria-label="Abrir menu"
-            >
-              <span class="menu-icon"></span>
+          <nav aria-label="Navegação principal" class="nav">
+            <button class="mobile-menu" aria-label="Menu">
             </button>
-            <ul id="main-menu">
+            <ul id="nav-list">
               <li><a href="#about">Sobre</a></li>
               <li><a href="#services">Serviços</a></li>
               <li><a href="#benefits">Benefícios</a></li>
@@ -163,7 +129,7 @@
       <section id="hero" aria-labelledby="hero-title">
         <div class="hero-container">
           <div class="hero-content">
-            <h2 id="hero-title">
+            <h2 class="hero-title">
               Toda mudança começa<br />
               com um passo
             </h2>
@@ -171,7 +137,7 @@
               Apoio profissional, escuta acolhedora e cuidado com <br />
               sua saúde mental
             </p>
-            <p class="hero-strong">
+            <p>
               <strong>Você Não Está Sozinho</strong>
             </p>
             <a
@@ -198,7 +164,7 @@
       <!-- Seção Sobre -->
       <section id="about" aria-labelledby="about-title">
         <div class="about-container">
-          <h2 id="about-title" class="section-title">Sobre</h2>
+          <h2 class="about-title">Sobre</h2>
           <div class="about-cv">
             <h3>André Carvalho</h3>
             <p>Psicólogo (CRP 05/78.074)</p>
@@ -486,6 +452,18 @@
             ></button>
             <button
               class="dot"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 7"
+            ></button>
+            <button
+              class="dot mobile-only"
+              role="tab"
+              aria-selected="false"
+              aria-label="Slide 7"
+            ></button>
+            <button
+              class="dot mobile-only"
               role="tab"
               aria-selected="false"
               aria-label="Slide 7"
