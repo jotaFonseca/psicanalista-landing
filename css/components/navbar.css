@@ -92,6 +92,24 @@
 }
 
 @media (max-width: 768px) {
+  #top-header-wrapper {
+    background: url('../../assets/img/logo-hero/hero-img.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+  }
+
+  #top-header-wrapper::before {
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+
   .header-container {
     display: flex;
     justify-content: space-between;
