@@ -160,6 +160,7 @@
   z-index: 3;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   #benefits {
     flex-direction: column;
@@ -251,6 +252,102 @@
 
   .cta-section .btn {
     margin: 0 auto 3rem;
+  }
+}
+
+/* Tablets Layouts */
+@media (min-width: 769px) and (max-width: 1270px) {
+  
+  #benefits {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .benefits-line {
+    left: -50px;
+    top: 0;
+    width: 1500px;
+    height: 100%;
+    z-index: 0;
+  }
+  .benefits-title {
+    font-size: 2.5rem;
+    padding: 10rem 5rem;
+    text-align: left;
+  }
+
+  .benefits-blob {
+    left: -167px;
+    top: -100px;
+    width: 1500px;
+    height: 1500px;
+    z-index: 0;
+  }
+
+  .benefits-title::before {
+    height: 20px;
+    width: 40px;
+    left: 30px;
+    top: 180px;
+  }
+
+  .benefits-description {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+
+  .cta-section {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+}
+
+/* Notebooks Layout */
+@media (min-width: 1271px) and (max-width: 1700px) {
+  #benefits {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .benefits-blob{
+    left: 167px;
+    top: -100px;
+    width: 1500px;
+    height: 1500px;
+    z-index: 0;
+  }
+
+  .benefits-title {
+    font-size: 2.5rem;
+    padding: 10rem 5rem;
+    text-align: left;
+  }
+
+  .benefits-title::before {
+    height: 20px;
+    width: 40px;
+    left: 30px;
+    top: 180px;
+  }
+
+  .benefits-description {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+
+  .cta-section {
+    margin-bottom: 5rem;
+    text-align: center;
   }
 }
 
