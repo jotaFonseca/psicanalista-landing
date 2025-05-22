@@ -210,3 +210,69 @@
     display: none;
   }
 }
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #about {
+    height: auto;
+    min-height: 80vh;
+    padding: 3rem;
+  }
+
+  .about-title {
+    padding: 1rem 2rem;
+  }
+
+  .about-title::before {
+    left: -15px;
+    top: 35px;
+  }
+
+  .about-description {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+  }
+
+  .about-description-text {
+    width: 600px;
+  }
+
+  .about-description-ilustration {
+    position: relative;
+    width: 100%;
+  }
+
+  .about-line {
+    bottom: -250px;
+    left: 50px;
+    height: 60rem;
+    z-index: 0;
+  }
+
+  .ilustration {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-15%);
+  }
+
+  #about .btn {
+    margin-right: 5rem;
+    position: relative;
+    bottom: 0;
+    left: 50px;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #about .btn {
+    position: relative;
+    bottom: -50px;
+    left: 0;
+  }
+}
