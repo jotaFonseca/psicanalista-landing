@@ -91,7 +91,8 @@
   z-index: 11;
 }
 
-@media (max-width: 768px) {
+/* Mobile */
+@media (max-width: 767px) {
   #top-header-wrapper {
     background: url('../../assets/img/logo-hero/hero-img.jpg');
     background-position: center;
@@ -198,5 +199,11 @@
     transform: rotate(-135deg);
     top: -7px;
   }
+}
 
+/* Tablet Retrato*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  #top-header-wrapper {
+    height: 80vh;
+  }
 }
