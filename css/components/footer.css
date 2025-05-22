@@ -131,3 +131,40 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-container {
+    align-items: start;
+  }
+
+  .footer-left {
+    margin-bottom: 2rem;
+  }
+
+  .logo-container img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-text h3 {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+
+  .cta-button .btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-menu {
+    margin-right: 5rem;
+  }
+}
