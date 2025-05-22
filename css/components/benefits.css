@@ -50,7 +50,7 @@
 
 .benefits-blob {
   background-image: url('../../assets/svg/benefits/bg.svg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   pointer-events: none;
   position: absolute;
@@ -224,9 +224,16 @@
     padding-left: 0;
   }
 
+  .benefit-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .benefit-icon {
-    top: -50px;
-    left: 135px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 1rem;
   }
 
   .benefit-content h4 {
