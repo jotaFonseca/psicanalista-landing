@@ -358,11 +358,18 @@
   }
 
   .services-cta {
+    display: flex;
+    justify-content: space-between;
     margin-top: 10rem;
   }
 
   .services-cta-text {
     z-index: 2;
+  }
+
+  .services-container .btn {
+    margin: 2rem auto 1rem 0;
+    z-index: 3;
   }
 }
 
@@ -373,8 +380,9 @@
   }
 
   .services-blob {
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
+    z-index: 0;
   }
 
   .services-title {
@@ -388,5 +396,19 @@
     height: 20px;
     top: 20px;
     right: 200px;
+  }
+
+  .services-cta {
+    justify-content: space-between;
+    z-index: 2;
+  }
+
+  .services-cta-text {
+    z-index: 2;
+  }
+
+  .services-container .btn {
+    margin: 2rem auto 1rem 0;
+    z-index: 3;
   }
 }
