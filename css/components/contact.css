@@ -136,5 +136,62 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 1270px) {
+  #contact {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .contact-line {
+    display: none;
+  }
+
+  .contact-blob {
+    height: 700px;
+    width: 700px;
+    left: 0px;
+    z-index: 0;
+  }
+
+  dotlottie-player {
+    display: none;
+  }
+}
+
+@media (min-width: 1271px) and (max-width: 1700px) {
+  #contact {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .contact-line {
+    left: -50px;
+    top: 0;
+    width: 1500px;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .contact-blob {
+    height: 700px;
+    width: 700px;
+    left: 0;
+    z-index: 0;
+  }
+
+  .contact-content {
+    margin-top: 5rem;
+  }
+
+  .contact-actions {
+    margin-bottom: 4rem;
+  }
+
+  dotlottie-player {
+    display: none;
+  }
+
+}
+
 
 
