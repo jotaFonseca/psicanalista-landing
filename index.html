@@ -41,10 +41,9 @@
     <link rel="canonical" href="https://www.andrecarvalho.psi.br/" />
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png" />
-
-    <!-- Preload recursos críticos -->
-    <link rel="preload" href="css/style.css" as="style" />
-    <link rel="preload" href="./assets/img/logo-hero/logo.png" as="image" />
+    
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="/dist/styles.css" />
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,12 +52,10 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-
-    <!-- CSS principal -->
-    <link rel="stylesheet" href="./src/css/style.css" />
-
-    <!-- JavaScript principal -->
-    <script type="module" src="./src/js/script.js" defer></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
     <!-- Animação ao Scrollar -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -236,9 +233,9 @@
           </div>
 
           <div class="swiper" aria-label="Carrossel de serviços">
-            <div class="swiper-warpper">
+            <div class="swiper-wrapper">
               <div class="swiper-slide" aria-labelledby="service-1-title">
-                <img
+                  <img
                   src="./src/assets/svg/services/icon-1.svg"
                   alt=""
                   width="64"
@@ -255,7 +252,6 @@
                   variações emocionais intensas.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-2-title">
                 <img
                   src="./src/assets/svg/services/icon-2.svg"
@@ -274,7 +270,6 @@
                   reconstrução de vínculos afetivos.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-3-title">
                 <img
                   src="./src/assets/svg/services/icon-3.svg"
@@ -291,7 +286,6 @@
                   e pensamentos negativos.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-4-title">
                 <img
                   src="./src/assets/svg/services/icon-4.svg"
@@ -308,7 +302,6 @@
                   compulsões ou padrões repetitivos.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-5-title">
                 <img
                   src="./src/assets/svg/services/icon-5.svg"
@@ -325,7 +318,6 @@
                   questões ligadas à sexualidade.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-6-title">
                 <img
                   src="./src/assets/svg/services/icon-6.svg"
@@ -342,7 +334,6 @@
                   ao emocional.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-7-title">
                 <img
                   src="./src/assets/svg/services/icon-7.svg"
@@ -359,7 +350,6 @@
                   intensas ou diagnósticos de bipolaridade.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-8-title">
                 <img
                   src="./src/assets/svg/services/icon-8.svg"
@@ -376,7 +366,6 @@
                   esgotamento e pressão no dia a dia.
                 </p>
               </div>
-
               <div class="swiper-slide" aria-labelledby="service-9-title">
                 <img
                   src="./src/assets/svg/services/icon-9.svg"
@@ -395,8 +384,8 @@
               </div>
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
           
           <div class="services-blob bottom-right"></div>
@@ -827,5 +816,8 @@
       src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
       type="module"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JavaScript principal -->
+    <script type="module" src="/dist/main.bundle.js"></script>
   </body>
 </html>
