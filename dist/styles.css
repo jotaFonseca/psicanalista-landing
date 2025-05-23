@@ -1,65 +1,5 @@
-/*!*************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css ***!
-  \*************************************************************************/
-:root {
-   --primary-color: #76a676;
-   --primary-color-hover: #476447;
-   --primary-color-light: #d5e3d5;
-   --secondary-color: #824209;
-   --secondary-color-hover: #4e2805;
-   --secondary-color-light: #d8c4b3;
-   --contrast-color: #e9e8d1;
-   --contrast-color-hover: #d2d1bc;
-   --contrast-light: #f8f8f1;
-   --cta-color: #3b733b;
-   --cta-color-hover: #234523;
-   --cta-color-light: #c2d4c2;
-   --main-text: #333;
-   --secondary-text: #7d7d7d;
-   --footer-bg: #144014;
-   --mobile-bg: #1b4232;
-}
-/*!**********************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/reset.css ***!
-  \**********************************************************************/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  background-color: var(--contrast-light);
-  color: var(--main-text);
-  font-family: 'Poppins', sans-serif;
-  scroll-behavior: smooth;
-  width: 100%;
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 /*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (1) ***!
-  \*****************************************************************************/
-:root {
-   --primary-color: #76a676;
-   --primary-color-hover: #476447;
-   --primary-color-light: #d5e3d5;
-   --secondary-color: #824209;
-   --secondary-color-hover: #4e2805;
-   --secondary-color-light: #d8c4b3;
-   --contrast-color: #e9e8d1;
-   --contrast-color-hover: #d2d1bc;
-   --contrast-light: #f8f8f1;
-   --cta-color: #3b733b;
-   --cta-color-hover: #234523;
-   --cta-color-light: #c2d4c2;
-   --main-text: #333;
-   --secondary-text: #7d7d7d;
-   --footer-bg: #144014;
-   --mobile-bg: #1b4232;
-}
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (2) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css ***!
   \*****************************************************************************/
 :root {
    --primary-color: #76a676;
@@ -80,7 +20,7 @@ html, body {
    --mobile-bg: #1b4232;
 }
 /*!**************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/reset.css (1) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/reset.css ***!
   \**************************************************************************/
 * {
   margin: 0;
@@ -97,9 +37,9 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (3) ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (1) ***!
+  \*********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -118,13 +58,73 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/components/navbar.css ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (2) ***!
+  \*********************************************************************************/
+:root {
+   --primary-color: #76a676;
+   --primary-color-hover: #476447;
+   --primary-color-light: #d5e3d5;
+   --secondary-color: #824209;
+   --secondary-color-hover: #4e2805;
+   --secondary-color-light: #d8c4b3;
+   --contrast-color: #e9e8d1;
+   --contrast-color-hover: #d2d1bc;
+   --contrast-light: #f8f8f1;
+   --cta-color: #3b733b;
+   --cta-color-hover: #234523;
+   --cta-color-light: #c2d4c2;
+   --main-text: #333;
+   --secondary-text: #7d7d7d;
+   --footer-bg: #144014;
+   --mobile-bg: #1b4232;
+}
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/reset.css (1) ***!
+  \******************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--contrast-light);
+  color: var(--main-text);
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (3) ***!
+  \*********************************************************************************/
+:root {
+   --primary-color: #76a676;
+   --primary-color-hover: #476447;
+   --primary-color-light: #d5e3d5;
+   --secondary-color: #824209;
+   --secondary-color-hover: #4e2805;
+   --secondary-color-light: #d8c4b3;
+   --contrast-color: #e9e8d1;
+   --contrast-color-hover: #d2d1bc;
+   --contrast-light: #f8f8f1;
+   --cta-color: #3b733b;
+   --cta-color-hover: #234523;
+   --cta-color-light: #c2d4c2;
+   --main-text: #333;
+   --secondary-text: #7d7d7d;
+   --footer-bg: #144014;
+   --mobile-bg: #1b4232;
+}
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/components/navbar.css ***!
+  \*********************************************************************************/
 /* Imports */
 
 #top-header-wrapper{
-  background: url(8a941991e95df94f9639.jpg) no-repeat center center / cover;
+  background: url(/dist/8a941991e95df94f9639.jpg) no-repeat center center / cover;
   height: 100vh;
 }
 .header-container {
@@ -215,7 +215,7 @@ html, body {
 /* Mobile */
 @media (max-width: 767px) {
   #top-header-wrapper {
-    background: url(8a941991e95df94f9639.jpg);
+    background: url(/dist/8a941991e95df94f9639.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -328,9 +328,9 @@ html, body {
     height: 80vh;
   }
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (4) ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (4) ***!
+  \*********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -349,9 +349,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!**************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/reset.css (2) ***!
-  \**************************************************************************/
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/reset.css (2) ***!
+  \******************************************************************************/
 * {
   margin: 0;
   padding: 0;
@@ -367,9 +367,9 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (5) ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (5) ***!
+  \*********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -388,9 +388,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!***************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/components/hero.css ***!
-  \***************************************************************************/
+/*!*******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/components/hero.css ***!
+  \*******************************************************************************/
 /* Imports */
 
 
@@ -456,9 +456,9 @@ html, body {
   }
 }
 
-/*!****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/components/about.css ***!
-  \****************************************************************************/
+/*!********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/components/about.css ***!
+  \********************************************************************************/
 #about {
   display: flex;
   flex-direction: column;
@@ -552,7 +552,7 @@ html, body {
 }
 
 .about-description-bg {
-  background: url(a9135325d0f30d0a4a1f.svg) no-repeat center;
+  background: url(/dist/a9135325d0f30d0a4a1f.svg) no-repeat center;
   background-size: contain;
   content: '';
   opacity: 0.4;
@@ -737,9 +737,9 @@ html, body {
     left: 0;
   }
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (6) ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (6) ***!
+  \*********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -758,9 +758,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!**************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/reset.css (3) ***!
-  \**************************************************************************/
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/reset.css (3) ***!
+  \******************************************************************************/
 * {
   margin: 0;
   padding: 0;
@@ -776,9 +776,9 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (7) ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (7) ***!
+  \*********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -797,10 +797,10 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!*******************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/components/services.css ***!
-  \*******************************************************************************/
- /* Imports */
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/components/services.css ***!
+  \***********************************************************************************/
+/* Imports */
 
 #services {
   background-color: var(--primary-color);
@@ -821,20 +821,20 @@ html, body {
 }
 
 .top-left {
-  background-image: url(7ef3ad4919d4114f5e99.svg);
+  background-image: url(/dist/7ef3ad4919d4114f5e99.svg);
   top: -50px;
   left: -50px;
 }
 
 .bottom-right {
-  background-image: url(5ab986e49b5d8f9ecbdd.svg);
+  background-image: url(/dist/5ab986e49b5d8f9ecbdd.svg);
   bottom: -50px;
   right: -50px;
 }
 
 .services-title {
   color: var(--cta-color);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   margin-bottom: 3rem;
   padding-right: 15rem;
@@ -845,7 +845,7 @@ html, body {
 
 .services-title::before {
   background-color: var(--cta-color);
-  content: '';
+  content: "";
   position: absolute;
   top: 18px;
   right: 410px;
@@ -865,7 +865,7 @@ html, body {
 
 .service-content h3 {
   color: var(--secondary-color);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   text-decoration: underline;
   z-index: 2;
@@ -879,101 +879,74 @@ html, body {
   height: 10rem;
 }
 
-.carrossel-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  margin: 0 auto;
-  max-width: 1100px;
-  position: relative;
-}
-
-.slides-viewport {
+.slide-container {
   overflow: hidden;
-  max-width: calc(300px * 3 + 3rem * 2);
+  padding: 0 380px;
+  position: relative;
   width: 100%;
 }
 
-.arrow {
-  background-color: transparent;
-  border: none;
-  color: var(--secondary-color-light);
-  cursor: pointer;
-  font-size: 2rem;
-  position: absolute;
-  top: 50%;
-  transition: .3s ease-in-out;
-  z-index: 2;
-}
-
-.arrow.left {
-  left: -3rem; /* Posiciona a seta fora da área visível */
-}
-
-.arrow.right {
-  right: -3rem; /* Posiciona a seta fora da área visível */
-}
-
-.arrow:hover {
-  transform: scale(1.2);
-}
-
-.slides-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 3rem;
-  width: fit-content;
-  height: 28.125rem;
+.wrapper {
+  margin: 0 0.5rem;
   overflow: hidden;
-  transform: translateX(0);
-  transition: transform .3s ease-out;
+  position: relative;
+  width: 1050px;
 }
 
 .slide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 0 auto;
+  padding-inline: 1rem;
+  padding-bottom: 2rem;
+  position: relative;
+  height: 450px;
+}
+.slide li {
   background-color: var(--contrast-color);
   border-radius: 10px;
-  box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
   color: var(--secondary-color);
   cursor: pointer;
-  display: flex;
-  flex: 0 0 300px;
-  flex-direction: column;
   flex-shrink: 0;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  padding: 0 20px 10px;
+  margin-inline: 1rem;
+  opacity: 0.5;
+  padding: 50px 30px;
   position: relative;
   text-align: center;
-  width: 300px;
+  width: 300px !important;
   height: 350px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
-.slide:hover {
+.slide li.active {
+  opacity: 1;
+}
+
+.slide li:hover {
   transform: scale(1.05);
 }
 
-.slide::before,
-.slide::after {
+.slide li::before,
+.slide li::after {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  content: '';
+  content: "";
   pointer-events: none;
   position: absolute;
   z-index: 0;
 }
 
-.slide::before {
+.slide li::before {
   left: 20px;
   top: 15px;
   width: 180px;
   height: 180px;
 }
 
-.slide::after {
+.slide li::after {
   bottom: 20px;
   right: 30px;
   width: 100px;
@@ -987,37 +960,64 @@ html, body {
 }
 
 .slide-title {
-  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
   font-size: 1.25rem;
 }
 
 .slide-description {
+  margin-left: 1.25rem;
   width: 200px;
 }
 
-.dots {
+.arrow-nav .prev,
+.arrow-nav .next {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 44%;
+  width: 44px;
+  height: 44px;
+  transition: 0.3s ease-out;
+}
+
+.arrow-nav .prev {
+  left: 320px;
+}
+
+.arrow-nav .next {
+  right: 320px;
+}
+
+.arrow-nav .prev:hover,
+.arrow-nav .next:hover {
+  transform: scale(1.2);
+}
+
+.custom-controls {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
-.dot {
-  background-color: var(--secondary-color-light);
-  border: none;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  transition: .3s ease-in-out;
-}
-
-.dot.mobile-only {
-  display: none;
-}
-
-.active {
+.custom-controls li{
   background-color: var(--secondary-color);
-  transition: .3s ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  opacity: .5;
+  overflow: hidden;
+  margin-inline: .5rem;
+  transform: scale(.8);
+  width: 20px;
+  height: 20px;
+}
+
+.custom-controls li.active {
+  opacity: 1;
 }
 
 .services-cta {
@@ -1035,7 +1035,7 @@ html, body {
   line-height: 3;
 }
 
-.services-cta dotlottie-player{
+.services-cta dotlottie-player {
   z-index: 0;
 }
 
@@ -1068,37 +1068,37 @@ html, body {
     z-index: 1;
   }
 
-.services-title {
-  font-size: 2rem;
-  padding-right: 30px;
-  z-index: 1;
-}
+  .services-title {
+    font-size: 2rem;
+    padding-right: 30px;
+    z-index: 1;
+  }
 
-.services-title::before {
-  width: 20px;
-  height: 10px;
-  top: 20px;
-  right: 160px;
-}
+  .services-title::before {
+    width: 20px;
+    height: 10px;
+    top: 20px;
+    right: 160px;
+  }
 
-.service-content h3 {
-  font-size: 1.75rem;
-  text-align: center;
-}
+  .service-content h3 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
 
-.service-description {
-  height: auto;
-  text-align: left;
-  width: 90%;
-}
+  .service-description {
+    height: auto;
+    text-align: left;
+    width: 90%;
+  }
 
-.carrossel-wrapper {
-  gap: .75rem;
-  margin: 0 auto;
-  width: 100%;
-}
+  .carrossel-wrapper {
+    gap: 0.75rem;
+    margin: 0 auto;
+    width: 100%;
+  }
 
-.slides-viewport {
+  .slides-viewport {
     max-width: 250px;
   }
 
@@ -1116,14 +1116,14 @@ html, body {
     flex: 0 0 250px;
     width: 250px;
     height: 300px;
-    margin: 1rem .75rem;
+    margin: 1rem 0.75rem;
   }
 
   .slide-icon {
     width: 50px;
     height: 50px;
     margin: 0 auto;
-    padding-top: .5rem;
+    padding-top: 0.5rem;
   }
 
   .dot.mobile-only {
@@ -1136,7 +1136,7 @@ html, body {
     margin-bottom: 2rem;
   }
 
-.services-container .btn {
+  .services-container .btn {
     position: relative;
     margin: 0 auto;
     z-index: 1;
@@ -1147,12 +1147,12 @@ html, body {
   }
 }
 
-@media (min-width: 769px) and (max-width:1270px) {
+@media (min-width: 769px) and (max-width: 1270px) {
   #services {
     min-height: 100vh;
     height: auto;
   }
-  
+
   .services-blob {
     height: 600px;
     width: 600px;
@@ -1247,9 +1247,10 @@ html, body {
     z-index: 3;
   }
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (8) ***!
-  \*****************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (8) ***!
+  \*********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -1268,9 +1269,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!**************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/reset.css (4) ***!
-  \**************************************************************************/
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/reset.css (4) ***!
+  \******************************************************************************/
 * {
   margin: 0;
   padding: 0;
@@ -1286,9 +1287,9 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (9) ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (9) ***!
+  \*********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -1307,9 +1308,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!*******************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/components/benefits.css ***!
-  \*******************************************************************************/
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/components/benefits.css ***!
+  \***********************************************************************************/
 /* Imports */
 
 #benefits {
@@ -1359,7 +1360,7 @@ html, body {
 }
 
 .benefits-blob {
-  background-image: url(233c6c3d3ceaeb6e1afb.svg);
+  background-image: url(/dist/233c6c3d3ceaeb6e1afb.svg);
   background-size: cover;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -1662,9 +1663,9 @@ html, body {
 }
 
 
-/*!******************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (10) ***!
-  \******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (10) ***!
+  \**********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -1683,9 +1684,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!**************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/reset.css (5) ***!
-  \**************************************************************************/
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/reset.css (5) ***!
+  \******************************************************************************/
 * {
   margin: 0;
   padding: 0;
@@ -1701,9 +1702,9 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-/*!******************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (11) ***!
-  \******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (11) ***!
+  \**********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -1722,9 +1723,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!******************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/components/contact.css ***!
-  \******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/components/contact.css ***!
+  \**********************************************************************************/
 /* Imports */
 
 #contact {
@@ -1746,7 +1747,7 @@ html, body {
 }
 
 .contact-blob {
-  background: url(ee9c572d10199ab70469.svg) no-repeat;
+  background: url(/dist/ee9c572d10199ab70469.svg) no-repeat;
   background-size: contain;
   pointer-events: none;
   position: absolute;
@@ -1921,9 +1922,9 @@ html, body {
 
 
 
-/*!******************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (12) ***!
-  \******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (12) ***!
+  \**********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -1942,9 +1943,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!**************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/reset.css (6) ***!
-  \**************************************************************************/
+/*!******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/reset.css (6) ***!
+  \******************************************************************************/
 * {
   margin: 0;
   padding: 0;
@@ -1960,9 +1961,9 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-/*!******************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/base/variable.css (13) ***!
-  \******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/base/variable.css (13) ***!
+  \**********************************************************************************/
 :root {
    --primary-color: #76a676;
    --primary-color-hover: #476447;
@@ -1981,9 +1982,9 @@ html, body {
    --footer-bg: #144014;
    --mobile-bg: #1b4232;
 }
-/*!*****************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/components/footer.css ***!
-  \*****************************************************************************/
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/components/footer.css ***!
+  \*********************************************************************************/
 /* Imports */
 
 #footer {
@@ -2152,9 +2153,9 @@ html, body {
     margin-right: 5rem;
   }
 }
-/*!*****************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./css/style.css ***!
-  \*****************************************************************/
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
+  \*********************************************************************/
 /* Reset e Variáveis */
 /* Componentes */
 

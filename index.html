@@ -52,10 +52,6 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
 
     <!-- Animação ao Scrollar -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -232,160 +228,176 @@
             </p>
           </div>
 
-          <div class="swiper" aria-label="Carrossel de serviços">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide" aria-labelledby="service-1-title">
+          <div class="slide-container">
+            <div class="wrapper">
+              <ul class="slide">
+                <li data-slide="1">
                   <img
-                  src="./src/assets/svg/services/icon-1.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-1-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-1-title" class="slide-title">
-                  Ansiedade e Instabilidade Emocional
-                </h4>
-                <p id="service-1-description" class="slide-description">
-                  Ajuda para lidar com crises de ansiedade, desmotivação, medo a
-                  variações emocionais intensas.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-2-title">
-                <img
-                  src="./src/assets/svg/services/icon-2.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-2-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-2-title" class="slide-title">
-                  Relacionamentos e Conflitos Afetivos
-                </h4>
-                <p id="service-2-description" class="slide-description">
-                  Suporte psicológico para dificuldades conjugais e,
-                  reconstrução de vínculos afetivos.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-3-title">
-                <img
-                  src="./src/assets/svg/services/icon-3.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-3-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-3-title" class="slide-title">Depressão e Tristeza Profunda</h4>
-                <p id="service-3-description" class="slide-description">
-                  Tratamento para apatia, falta de energia, tristeza persistente
-                  e pensamentos negativos.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-4-title">
-                <img
-                  src="./src/assets/svg/services/icon-4.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-4-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-4-title" class="slide-title">TDAH e Comportamentos Impulsivos</h4>
-                <p id="service-4-description" class="slide-description">
-                  Acompanhamento para diagnóstico ou suspeita de TDAH,
-                  compulsões ou padrões repetitivos.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-5-title">
-                <img
-                  src="./src/assets/svg/services/icon-5.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-5-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-5-title" class="slide-title">Sexualidade e Identidade</h4>
-                <p id="service-5-description" class="slide-description">
-                  Espaço seguro para refletir e se expressar com liberdade sobre
-                  questões ligadas à sexualidade.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-6-title">
-                <img
-                  src="./src/assets/svg/services/icon-6.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-6-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-6-title" class="slide-title">Sintomas Psicossomáticos</h4>
-                <p id="service-6-description" class="slide-description">
-                  Tratamento de sintomas físicos sem causa médica, relacionados
-                  ao emocional.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-7-title">
-                <img
-                  src="./src/assets/svg/services/icon-7.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-7-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-7-title" class="slide-title">Oscilações de Humor e Bipolaridade</h4>
-                <p id="service-7-description" class="slide-description">
-                  Cuidado especializado para lidar com mudanças emocionais
-                  intensas ou diagnósticos de bipolaridade.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-8-title">
-                <img
-                  src="./src/assets/svg/services/icon-8.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-8-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-8-title" class="slide-title">Burnout e Estresse</h4>
-                <p id="service-8-description" class="slide-description">
-                  Suporte psicológico para quem sofre com sobrecarga mental,
-                  esgotamento e pressão no dia a dia.
-                </p>
-              </div>
-              <div class="swiper-slide" aria-labelledby="service-9-title">
-                <img
-                  src="./src/assets/svg/services/icon-9.svg"
-                  alt=""
-                  width="64"
-                  height="64"
-                  aria-hidden="true"
-                  id="service-9-icon"
-                  class="slide-icon"
-                />
-                <h4 id="service-9-title" class="slide-title">Dificuldades nas Relações</h4>
-                <p id="service-9-description" class="slide-description">
-                  Ajuda para desenvolver relações interpessoais mais saudáveis,
-                  respeitosas e equilibradas.
-                </p>
-              </div>
+                    src="./src/assets/svg/services/icon-1.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-1-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-1-title" class="slide-title">
+                    Ansiedade e Instabilidade Emocional
+                  </h4>
+                  <p id="service-1-description" class="slide-description">
+                    Ajuda para lidar com crises de ansiedade, desmotivação, medo a
+                    variações emocionais intensas.
+                  </p>
+                </li>
+                <li data-slide="2">
+                  <img
+                    src="./src/assets/svg/services/icon-2.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-2-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-2-title" class="slide-title">
+                    Relacionamentos e Conflitos Afetivos
+                  </h4>
+                  <p id="service-2-description" class="slide-description">
+                    Suporte psicológico para dificuldades conjugais e,
+                    reconstrução de vínculos afetivos.
+                  </p>
+                </li>
+                <li data-slide="3">
+                  <img
+                    src="./src/assets/svg/services/icon-3.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-3-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-3-title" class="slide-title">Depressão e Tristeza Profunda</h4>
+                  <p id="service-3-description" class="slide-description">
+                    Tratamento para apatia, falta de energia, tristeza persistente
+                    e pensamentos negativos.
+                  </p>
+                </li>
+                <li data-slide="4">
+                    <img
+                    src="./src/assets/svg/services/icon-4.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-4-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-4-title" class="slide-title">TDAH e Comportamentos Impulsivos</h4>
+                  <p id="service-4-description" class="slide-description">
+                    Acompanhamento para diagnóstico ou suspeita de TDAH,
+                    compulsões ou padrões repetitivos.
+                  </p>
+                </li>
+                <li data-slide="5">
+                  <img
+                    src="./src/assets/svg/services/icon-5.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-5-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-5-title" class="slide-title">Sexualidade e Identidade</h4>
+                  <p id="service-5-description" class="slide-description">
+                    Espaço seguro para refletir e se expressar com liberdade sobre
+                    questões ligadas à sexualidade.
+                  </p>
+                </li>
+                <li data-slide="6">
+                  <img
+                    src="./src/assets/svg/services/icon-6.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-6-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-6-title" class="slide-title">Sintomas Psicossomáticos</h4>
+                  <p id="service-6-description" class="slide-description">
+                    Tratamento de sintomas físicos sem causa médica, relacionados
+                    ao emocional.
+                  </p>
+                </li>
+                <li data-slide="7">
+                  <img
+                    src="./src/assets/svg/services/icon-7.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-7-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-7-title" class="slide-title">Oscilações de Humor e Bipolaridade</h4>
+                  <p id="service-7-description" class="slide-description">
+                    Cuidado especializado para lidar com mudanças emocionais
+                    intensas ou diagnósticos de bipolaridade.
+                  </p>
+                </li>
+                <li data-slide="8">
+                  <img
+                    src="./src/assets/svg/services/icon-8.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-8-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-8-title" class="slide-title">Burnout e Estresse</h4>
+                  <p id="service-8-description" class="slide-description">
+                    Suporte psicológico para quem sofre com sobrecarga mental,
+                    esgotamento e pressão no dia a dia.
+                  </p>
+                </li>
+                <li data-slide="9">
+                  <img
+                    src="./src/assets/svg/services/icon-9.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                    aria-hidden="true"
+                    id="service-9-icon"
+                    class="slide-icon"
+                  />
+                  <h4 id="service-9-title" class="slide-title">Dificuldades nas Relações</h4>
+                  <p id="service-9-description" class="slide-description">
+                    Ajuda para desenvolver relações interpessoais mais saudáveis,
+                    respeitosas e equilibradas.
+                  </p>
+                </li>
+              </ul>
             </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="arrow-nav">
+              <button class="prev">
+                <img src="./src/assets/svg/services/arrow-left.svg" alt="">
+              </button>
+              <button class="next">
+                <img src="./src/assets/svg/services/arrow-right.svg" alt="">
+              </button>
+            </div>
+            <ul class="custom-controls">
+              <li class="active"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
           </div>
           
           <div class="services-blob bottom-right"></div>
@@ -812,11 +824,7 @@
     </footer>
 
     <!-- Animations Scripts -->
-    <script
-      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
-      type="module"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <!-- JavaScript principal -->
     <script type="module" src="/dist/main.bundle.js"></script>
   </body>
