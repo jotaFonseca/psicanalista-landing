@@ -84,6 +84,15 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  margin: 0 auto;
+  max-width: 1100px;
+  position: relative;
+}
+
+.slides-viewport {
+  overflow: hidden;
+  max-width: calc(300px * 3 + 3rem * 2);
+  width: 100%;
 }
 
 .arrow {
@@ -92,7 +101,18 @@
   color: var(--secondary-color-light);
   cursor: pointer;
   font-size: 2rem;
-  transition: .3s ease-in-out
+  position: absolute;
+  top: 50%;
+  transition: .3s ease-in-out;
+  z-index: 2;
+}
+
+.arrow.left {
+  left: -3rem; /* Posiciona a seta fora da área visível */
+}
+
+.arrow.right {
+  right: -3rem; /* Posiciona a seta fora da área visível */
 }
 
 .arrow:hover {
@@ -104,10 +124,11 @@
   justify-content: flex-start;
   align-items: center;
   gap: 3rem;
-  overflow: hidden;
-  padding-left: 3rem;
-  width: 66.5rem;
+  width: fit-content;
   height: 28.125rem;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: transform .3s ease-out;
 }
 
 .slide {
@@ -117,6 +138,7 @@
   color: var(--secondary-color);
   cursor: pointer;
   display: flex;
+  flex: 0 0 300px;
   flex-direction: column;
   flex-shrink: 0;
   justify-content: center;
@@ -276,17 +298,22 @@
   width: 100%;
 }
 
+.slides-viewport {
+    max-width: 250px;
+  }
+
   .slides-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: calc(250px * 9 + 2rem * 8);
     height: auto;
     padding: 1rem;
     gap: 2rem;
   }
 
   .slide {
+    flex: 0 0 250px;
     width: 250px;
     height: 300px;
     margin: 1rem .75rem;
@@ -346,6 +373,14 @@
 
   .carrossel-wrapper {
     gap: 1.25rem;
+  }
+
+  .slides-viewport {
+    max-width: calc(250px * 2 + 2rem);
+  }
+
+  .slides-container {
+    gap: 2rem;
   }
 
   .slide {
