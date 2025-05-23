@@ -1,6 +1,6 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-import { mode } from './node_modules/webpack/lib/dependencies/HarmonyExportImportedSpecifierDependency';
+
 module.exports = {
   entry: {
     main: './js/script.js',
