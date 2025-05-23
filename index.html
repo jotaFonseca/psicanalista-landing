@@ -55,10 +55,10 @@
     />
 
     <!-- CSS principal -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
 
     <!-- JavaScript principal -->
-    <script type="module" src="./js/script.js" defer></script>
+    <script type="module" src="./src/js/script.js" defer></script>
 
     <!-- Animação ao Scrollar -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -94,7 +94,7 @@
           <div class="logo-container">
             <a href="#" aria-label="André Carvalho - Página inicial">
               <img
-                src="./assets/img/logo-hero/logo.svg"
+                src="./src/assets/img/logo-hero/logo.svg"
                 alt="André Carvalho Psicólogo e Psicanalista"
                 class="logo"
                 width="60"
@@ -142,7 +142,7 @@
               aria-label="Marque sua consulta pelo WhatsApp"
             >
               <img
-                src="./assets/svg/wpp-icon.svg"
+                src="./src/assets/svg/wpp-icon.svg"
                 alt=""
                 class="wpp-icon"
                 width="24"
@@ -181,7 +181,7 @@
             </div>
             <div class="about-description-ilustration">
               <img
-                src="./assets/svg/about/linha-suave-sobre.svg"
+                src="./src/assets/svg/about/linha-suave-sobre.svg"
                 alt=""
                 aria-hidden="true"
                 class="about-line"
@@ -206,7 +206,7 @@
           id="about-cta"
         >
           <img
-            src="./assets/svg/wpp-icon.svg"
+            src="./src/assets/svg/wpp-icon.svg"
             alt=""
             class="wpp-icon"
             width="24"
@@ -235,19 +235,11 @@
             </p>
           </div>
 
-          <div class="carrossel-wrapper" aria-label="Carrossel de serviços">
-            <button class="arrow left" aria-label="Slide anterior">
-              <img
-                src="./assets/svg/services/arrow-left.svg"
-                alt="Seta indicadora esquerda"
-              />
-            </button>
-
-            <div class="slides-viewport">
-            <div class="slides-container">
-              <div class="slide" aria-labelledby="service-1-title">
+          <div class="swiper" aria-label="Carrossel de serviços">
+            <div class="swiper-warpper">
+              <div class="swiper-slide" aria-labelledby="service-1-title">
                 <img
-                  src="./assets/svg/services/icon-1.svg"
+                  src="./src/assets/svg/services/icon-1.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -264,9 +256,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-2-title">
+              <div class="swiper-slide" aria-labelledby="service-2-title">
                 <img
-                  src="./assets/svg/services/icon-2.svg"
+                  src="./src/assets/svg/services/icon-2.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -283,9 +275,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-3-title">
+              <div class="swiper-slide" aria-labelledby="service-3-title">
                 <img
-                  src="./assets/svg/services/icon-3.svg"
+                  src="./src/assets/svg/services/icon-3.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -300,9 +292,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-4-title">
+              <div class="swiper-slide" aria-labelledby="service-4-title">
                 <img
-                  src="./assets/svg/services/icon-4.svg"
+                  src="./src/assets/svg/services/icon-4.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -317,9 +309,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-5-title">
+              <div class="swiper-slide" aria-labelledby="service-5-title">
                 <img
-                  src="./assets/svg/services/icon-5.svg"
+                  src="./src/assets/svg/services/icon-5.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -334,9 +326,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-6-title">
+              <div class="swiper-slide" aria-labelledby="service-6-title">
                 <img
-                  src="./assets/svg/services/icon-6.svg"
+                  src="./src/assets/svg/services/icon-6.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -351,9 +343,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-7-title">
+              <div class="swiper-slide" aria-labelledby="service-7-title">
                 <img
-                  src="./assets/svg/services/icon-7.svg"
+                  src="./src/assets/svg/services/icon-7.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -368,9 +360,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-8-title">
+              <div class="swiper-slide" aria-labelledby="service-8-title">
                 <img
-                  src="./assets/svg/services/icon-8.svg"
+                  src="./src/assets/svg/services/icon-8.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -385,9 +377,9 @@
                 </p>
               </div>
 
-              <div class="slide" aria-labelledby="service-9-title">
+              <div class="swiper-slide" aria-labelledby="service-9-title">
                 <img
-                  src="./assets/svg/services/icon-9.svg"
+                  src="./src/assets/svg/services/icon-9.svg"
                   alt=""
                   width="64"
                   height="64"
@@ -401,73 +393,10 @@
                   respeitosas e equilibradas.
                 </p>
               </div>
-              </div>
             </div>
-
-            <button class="arrow right" aria-label="Próximo slide">
-              <img
-                src="./assets/svg/services/arrow-right.svg"
-                alt="Seta indicadora direita"
-              />
-            </button>
-          </div>
-
-          <div class="dots" role="tablist" aria-label="Navegação do carrossel">
-            <button
-              class="dot active"
-              role="tab"
-              aria-selected="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              class="dot"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              class="dot"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              class="dot"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 4"
-            ></button>
-            <button
-              class="dot"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 5"
-            ></button>
-            <button
-              class="dot"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 6"
-            ></button>
-            <button
-              class="dot"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 7"
-            ></button>
-            <button
-              class="dot mobile-only"
-              id="dot-tablet"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 7"
-            ></button>
-            <button
-              class="dot mobile-only"
-              role="tab"
-              aria-selected="false"
-              aria-label="Slide 7"
-            ></button>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
           
           <div class="services-blob bottom-right"></div>
@@ -496,7 +425,7 @@
             aria-label="Marque sua consulta pelo WhatsApp"
           >
             <img
-              src="./assets/svg/wpp-icon.svg"
+              src="./src/assets/svg/wpp-icon.svg"
               alt=""
               class="wpp-icon"
               width="24"
@@ -514,7 +443,7 @@
           <h2 class="benefits-title">Benefícios</h2>
 
           <img
-            src="./assets/svg/benefits/linha-suave-beneficios.svg"
+            src="./src/assets/svg/benefits/linha-suave-beneficios.svg"
             alt=""
             aria-hidden="true"
             class="benefits-line"
@@ -543,7 +472,7 @@
             >
               <div class="therapy-icon">
                 <img
-                  src="./assets/svg/benefits/icon-1.svg"
+                  src="./src/assets/svg/benefits/icon-1.svg"
                   alt=""
                   width="150"
                   height="150"
@@ -563,7 +492,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-3.svg"
+                      src="./src/assets/svg/benefits/icon-3.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -583,7 +512,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-5.svg"
+                      src="./src/assets/svg/benefits/icon-5.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -603,7 +532,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-7.svg"
+                      src="./src/assets/svg/benefits/icon-7.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -623,7 +552,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-9.svg"
+                      src="./src/assets/svg/benefits/icon-9.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -648,7 +577,7 @@
             >
               <div class="therapy-icon">
                 <img
-                  src="./assets/svg/benefits/icon-2.svg"
+                  src="./src/assets/svg/benefits/icon-2.svg"
                   alt=""
                   width="150"
                   height="150"
@@ -668,7 +597,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-4.svg"
+                      src="./src/assets/svg/benefits/icon-4.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -687,7 +616,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-6.svg"
+                      src="./src/assets/svg/benefits/icon-6.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -707,7 +636,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-8.svg"
+                      src="./src/assets/svg/benefits/icon-8.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -727,7 +656,7 @@
                 <li class="benefit-item">
                   <div class="benefit-icon">
                     <img
-                      src="./assets/svg/benefits/icon-10.svg"
+                      src="./src/assets/svg/benefits/icon-10.svg"
                       alt=""
                       width="50"
                       height="50"
@@ -757,7 +686,7 @@
               aria-label="Marque sua consulta pelo WhatsApp"
             >
               <img
-                src="./assets/svg/wpp-icon.svg"
+                src="./src/assets/svg/wpp-icon.svg"
                 alt=""
                 class="wpp-icon"
                 width="24"
@@ -774,7 +703,7 @@
       <section id="contact" aria-labelledby="contact-title">
         <div class="contact-container">
           <img
-            src="./assets/svg/contact/linha-suave-contato.svg"
+            src="./src/assets/svg/contact/linha-suave-contato.svg"
             alt=""
             aria-hidden="true"
             class="contact-line"
@@ -798,7 +727,7 @@
             <div class="contact-actions">
               <div class="qr-code">
                 <img
-                  src="./assets/svg/contact/qrcode.svg"
+                  src="./src/assets/svg/contact/qrcode.svg"
                   alt="QR Code para contato via WhatsApp"
                   width="150"
                   height="150"
@@ -811,7 +740,7 @@
                 aria-label="Comece sua mudança agora pelo WhatsApp"
               >
                 <img
-                  src="./assets/svg/wpp-icon.svg"
+                  src="./src/assets/svg/wpp-icon.svg"
                   alt=""
                   class="wpp-icon"
                   width="24"
@@ -844,7 +773,7 @@
           <div class="footer-left">
             <div class="logo-container">
               <img
-                src="./assets/img/logo-hero/logo.svg"
+                src="./src/assets/img/logo-hero/logo.svg"
                 alt="Logo André Carvalho"
                 width="60"
                 height="60"
@@ -865,7 +794,7 @@
                 aria-label="Marque sua consulta pelo WhatsApp"
               >
                 <img
-                  src="./assets/svg/wpp-icon.svg"
+                  src="./src/assets/svg/wpp-icon.svg"
                   alt=""
                   class="wpp-icon"
                   width="24"
