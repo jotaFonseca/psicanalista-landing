@@ -1023,7 +1023,7 @@ html, body {
   z-index: 3;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-width: 767px){
   #services {
     padding: 5rem 1rem;
     min-height: 100vh;
@@ -1123,7 +1123,7 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1169px){
   #services {
     min-height: 100vh;
     height: auto;
@@ -1209,13 +1209,13 @@ html, body {
 
   .slide-container {
     width: 1850px;
-    margin: 0 -21rem;
+    margin: 0 -22rem;
   }
 
   .wrapper {
     width: 100%;
     margin: 0 -2rem;
-    padding: 3rem;
+    padding: 1.75rem;
   }
 
   .slide {
