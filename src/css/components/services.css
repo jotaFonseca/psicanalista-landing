@@ -248,7 +248,7 @@
   z-index: 3;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 360px) {
   #services {
     padding: 5rem 1rem;
     min-height: 100vh;
