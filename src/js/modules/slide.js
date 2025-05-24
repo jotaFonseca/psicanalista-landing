@@ -152,7 +152,9 @@ export class Slide {
     this.addSlideEvents();
     this.slidesConfig();
     this.addResizeEvent();
-    this.changeSlide(0)
+    this.initSlidesByData();
+    this.changeSlide(0);
+    this.initCustomControls();
 
     return this;
   }
@@ -162,6 +164,18 @@ export default class SlideNav extends Slide {
   constructor(slide, wrapper) {
     super(slide, wrapper);
     this.bindControlEvents();
+  }
+
+  init() {
+    this.bindEvents();
+    this.transition(true);
+    this.addSlideEvents();
+    this.slidesConfig();
+    this.addResizeEvent();
+    this.initSlidesByData();
+    this.changeSlide(0);
+    this.initCustomControls();
+    return this;
   }
 
   addArrow(prev, next) {
@@ -192,6 +206,34 @@ export default class SlideNav extends Slide {
 
     this.wrapper.appendChild(control);
     return control;
+  }
+
+  initCustomControls() {
+    this.customControls = document.querySelectorAll('.custom-controls li');
+    if (!this.customControls.length) return;
+
+    this.customControls.forEach((dot) => {
+      dot.addEventListener('click', () => {
+        const slideNumber = parseInt(dot.dataset.slide, 10);
+        this.changeSlide(this.slideIndexByData[slideNumber]);
+        this.updateCustomControls();
+      });
+    });
+
+    this.wrapper.addEventListener('changeEvent', () => this.updateCustomControls());
+    this.initSlidesByData();
+    this.updateCustomControls();
+  }
+
+  updateCustomControls() {
+    if (!this.customControls) return;
+
+    this.customControls.forEach(dot => dot.classList.remove('active'));
+
+    const currentSlide = parseInt(this.slideArray[this.index.active].element.dataset.slide, 10);
+    const activeDot = Array.from(this.customControls).find(dot => parseInt(dot.dataset.slide,10) === currentSlide);
+
+    if (activeDot) activeDot.classList.add('active');
   }
 
   eventControl(item, index) {
