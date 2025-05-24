@@ -458,7 +458,7 @@ html, body {
 
 @media (min-width: 769px) {
   #hero {
-    min-height: 100vh;
+    min-height: 30vh;
     height: auto;
   }
 }
@@ -1071,7 +1071,7 @@ html, body {
   z-index: 3;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   #services {
     padding: 5rem 1rem;
     min-height: 100vh;
@@ -1118,23 +1118,21 @@ html, body {
   }
 
   .slide-container {
-    margin: 0 -21rem;
-    width: 1100px;
+    margin: 0 -22rem;
+    width: 1050px;
+    height: auto;
   }
 
   .wrapper {
-    margin: 3rem -.5rem;
-    width: calc(100% - 1rem);
+    margin: 0 -5rem;
+    padding: 4rem;
+    width: calc(100% + 5.5rem);
   }
 
   .slide {
     margin: 0 auto;
-    padding: 4.5rem;
   }
 
-  .slide li {
-    margin: 0;
-  }
 
   .slide-icon {
     width: 50px;
@@ -1144,20 +1142,16 @@ html, body {
   }
 
   .arrow-nav {
-    width: 10px;
-    height: 10px;
-  }
-
-  .arrow-nav .prev {
-    left: 330px;
-  }
-
-  .arrow-nav .next {
-    right: 360px;
+    display: none;
   }
 
   .custom-controls {
-    margin-top: -2rem;
+    margin-top: -4rem;
+  }
+
+  .custom-controls li {
+    width: 10px;
+    height: 10px;
   }
 
   .services-cta-text {
@@ -1262,14 +1256,14 @@ html, body {
   }
 
   .slide-container {
-    width: 1500px;
-    margin: 0 -10rem;
+    width: 1850px;
+    margin: 0 -21rem;
   }
 
   .wrapper {
     width: 100%;
-    margin: 0 auto;
-    padding: 1rem;
+    margin: 0 -2rem;
+    padding: 3rem;
   }
 
   .slide {

@@ -67,7 +67,7 @@
 
 @media (min-width: 769px) {
   #hero {
-    min-height: 100vh;
+    min-height: 30vh;
     height: auto;
   }
 }
