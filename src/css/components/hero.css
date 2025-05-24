@@ -64,3 +64,17 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: 769px) {
+  #hero {
+    min-height: 100vh;
+    height: auto;
+  }
+}
+
+@media (min-width: 1170px) and (max-width: 1700px) {
+  #hero {
+    min-height: 50vh;
+    height: auto;
+  }
+}

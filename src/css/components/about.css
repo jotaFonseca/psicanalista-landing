@@ -206,16 +206,16 @@
     z-index: 3;
   }
 
-  dotlottie-player {
+  .ilustration {
     display: none;
   }
 }
 
 /* Tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px){
   #about {
     height: auto;
-    min-height: 80vh;
+    min-height: 100vh;
     padding: 3rem;
   }
 
@@ -245,13 +245,14 @@
   }
 
   .about-line {
-    bottom: -250px;
-    left: 50px;
-    height: 60rem;
+    bottom: -360px;
+    left: 30px;
+    height: 70rem;
     z-index: 0;
   }
 
   .ilustration {
+    display: block;
     height: 100px;
     width: 100px;
     position: absolute;
@@ -263,13 +264,21 @@
   #about .btn {
     margin-right: 5rem;
     position: relative;
-    bottom: 0;
-    left: 50px;
+    bottom: -50px;
+    left: -10px;
     z-index: 2;
   }
 }
+@media (min-width: 1170px) and (max-width: 1700px) {
+  #about {
+    min-height: 180vh;
+    height: auto;
+  }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+  .about-description-text{
+    width: 800px;
+  }
+
   #about .btn {
     position: relative;
     bottom: -50px;

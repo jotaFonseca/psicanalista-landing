@@ -14,8 +14,7 @@ export class ScrollAnimation {
         title: document.querySelector('.services-title'),
         subtitle: document.querySelector('.service-content h3'),
         description: document.querySelector('.service-content p'),
-        carrossel: document.querySelector('.carrossel-wrapper'),
-        dots: document.querySelector('.dots'),
+        slide: document.querySelector('.slide-container'),
         cta: document.querySelector('.services-cta')
       },
       benefits: {
@@ -92,12 +91,7 @@ export class ScrollAnimation {
       duration: 2000,
       delay: 400
     }),
-    window.ScrollReveal().reveal(this.sections.services.carrossel, {
-      ...this.defaultConfig,
-      duration: 2000,
-      delay: 500
-    }),
-    window.ScrollReveal().reveal(this.sections.services.dots, {
+    window.ScrollReveal().reveal(this.sections.services.slide, {
       ...this.defaultConfig,
       duration: 2000,
       delay: 500
