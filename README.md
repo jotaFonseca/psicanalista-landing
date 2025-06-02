@@ -1,4 +1,4 @@
-# Landing Page - André Carvalho | Psicólogo & Psicanalista
+# Landing Page | Psicólogo & Psicanalista
 
 Landing page profissional desenvolvida para apresentar os serviços de atendimento psicológico do André Carvalho, com foco em clareza, empatia e boa experiência do usuário.
 
